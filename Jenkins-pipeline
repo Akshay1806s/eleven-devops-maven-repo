@@ -2,7 +2,7 @@ pipeline {
     // add your slave label name
     agent any
     tools{
-        maven 'maven'
+        maven 'maven3.9.3'
     }
     stages {
         stage ('Checkout SCM') {
